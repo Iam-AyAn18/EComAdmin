@@ -1,6 +1,5 @@
 import './StatCard.css';
 
-// eslint-disable-next-line no-unused-vars
 const StatCard = ({ title, value, icon: Icon, trend, trendValue, color = 'primary' }) => {
   return (
     <div className={`stat-card stat-card-${color}`}>

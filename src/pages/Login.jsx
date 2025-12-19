@@ -64,7 +64,7 @@ const Login = () => {
                 <input type="checkbox" />
                 <span>Remember me</span>
               </label>
-              <a href="#" className="forgot-link">Forgot password?</a>
+              <button type="button" onClick={(e) => e.preventDefault()} className="forgot-link">Forgot password?</button>
             </div>
 
             <button type="submit" className="btn btn-primary btn-block">

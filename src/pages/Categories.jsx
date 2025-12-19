@@ -28,7 +28,7 @@ const Categories = () => {
     e.preventDefault();
     const formData = new FormData(e.target);
     const categoryData = {
-      id: editingCategory?.id || Date.now(),
+      id: editingCategory?.id || crypto.randomUUID(),
       name: formData.get('name'),
       icon: formData.get('icon'),
       products: editingCategory?.products || 0,

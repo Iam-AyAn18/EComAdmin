@@ -34,7 +34,7 @@ const Products = () => {
     e.preventDefault();
     const formData = new FormData(e.target);
     const productData = {
-      id: editingProduct?.id || Date.now(),
+      id: editingProduct?.id || crypto.randomUUID(),
       name: formData.get('name'),
       category: formData.get('category'),
       price: parseFloat(formData.get('price')),
