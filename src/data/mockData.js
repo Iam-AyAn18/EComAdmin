@@ -1,12 +1,12 @@
 export const mockProducts = [
-  { id: 1, name: 'Wireless Headphones', category: 'Electronics', price: 99.99, stock: 45, image: 'https://via.placeholder.com/150', status: 'Active' },
-  { id: 2, name: 'Smart Watch', category: 'Electronics', price: 249.99, stock: 23, image: 'https://via.placeholder.com/150', status: 'Active' },
-  { id: 3, name: 'Running Shoes', category: 'Fashion', price: 79.99, stock: 67, image: 'https://via.placeholder.com/150', status: 'Active' },
-  { id: 4, name: 'Coffee Maker', category: 'Home & Kitchen', price: 129.99, stock: 12, image: 'https://via.placeholder.com/150', status: 'Active' },
-  { id: 5, name: 'Yoga Mat', category: 'Sports', price: 29.99, stock: 89, image: 'https://via.placeholder.com/150', status: 'Active' },
-  { id: 6, name: 'Laptop Bag', category: 'Accessories', price: 49.99, stock: 34, image: 'https://via.placeholder.com/150', status: 'Active' },
-  { id: 7, name: 'Desk Lamp', category: 'Home & Kitchen', price: 39.99, stock: 56, image: 'https://via.placeholder.com/150', status: 'Active' },
-  { id: 8, name: 'Water Bottle', category: 'Sports', price: 19.99, stock: 120, image: 'https://via.placeholder.com/150', status: 'Active' },
+  { id: 1, name: 'Wireless Headphones', category: 'Electronics', price: 99.99, stock: 45, image: '/assets/headphones.jpg', status: 'Active' },
+  { id: 2, name: 'Smart Watch', category: 'Electronics', price: 249.99, stock: 23, image: '/assets/watch.jpg', status: 'Active' },
+  { id: 3, name: 'Running Shoes', category: 'Fashion', price: 79.99, stock: 67, image: '/assets/shoes.jpg', status: 'Active' },
+  { id: 4, name: 'Coffee Maker', category: 'Home & Kitchen', price: 129.99, stock: 12, image: '/assets/coffeemaker.jpg', status: 'Active' },
+  { id: 5, name: 'Yoga Mat', category: 'Sports', price: 29.99, stock: 89, image: '/assets/yogamat.jpg', status: 'Active' },
+  { id: 6, name: 'Laptop Bag', category: 'Accessories', price: 49.99, stock: 34, image: '/assets/laptopbag.jpg', status: 'Active' },
+  { id: 7, name: 'Desk Lamp', category: 'Home & Kitchen', price: 39.99, stock: 56, image: '/assets/desklamp.jpg', status: 'Active' },
+  { id: 8, name: 'Water Bottle', category: 'Sports', price: 19.99, stock: 120, image: '/assets/waterbottle.jpg', status: 'Active' },
 ];
 
 export const mockOrders = [
